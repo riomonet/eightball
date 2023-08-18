@@ -19,6 +19,7 @@ const EightBall = () => {
     const [msg, setMsg] = useState('Think of a Question')
 
     return <div onClick={postReply} style={{ backgroundColor: color}} id="EightBall"> {msg} </div>
+
 }
 
 export default EightBall;
